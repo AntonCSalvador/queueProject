@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Queue Player</title>
+</head>
+<body>
+    <div id="player"></div>
+    <button id="playButton">Play</button>
+    <button id="pauseButton">Pause</button>
+    <button id="nextButton">Next</button>
+    <button id="prevButton">Prev</button>
+
+     <input type="text" id="inputBox" placeholder="Enter YouTube URL">
+
+     <button onclick="saveInput()">Save Input</button>
+
+    <h3>Video Queue:</h3>
+    <ul id="videoQueue">
+         <li>https://www.youtube.com/watch?v=sTQNJT7OZew&list=RDGY3HJejPz1o&index=6</li>
+        <!-- List of videos in the queue will be displayed here -->
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/L3duKkR_NCo?si=ExigwyLv88IhnMR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    </ul>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
